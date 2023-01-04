@@ -31,7 +31,7 @@ function mapStateToProps(state) {
     counter: state.counter,
   };
 }
-
+//map props
 function mapDispatchToProps(dispatch) {
   return {
     increaseCounter: () => dispatch({type: 'INCREASE_COUNTER'}),
