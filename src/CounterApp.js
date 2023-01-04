@@ -25,7 +25,7 @@ class CounterApp extends Component {
     );
   }
 }
-
+//redux with react native
 function mapStateToProps(state) {
   return {
     counter: state.counter,
